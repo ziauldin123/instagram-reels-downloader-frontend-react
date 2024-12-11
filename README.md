@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Reeldown - Instagram Reels Downloader
 =====================================
 
@@ -70,3 +71,6 @@ Technologies Used:
 - Deployment Platforms: Aws ec2 instance
 
 Thank you for using Reeldown!
+=======
+# instagram-reels-downloader-frontend-react
+>>>>>>> origin/main
