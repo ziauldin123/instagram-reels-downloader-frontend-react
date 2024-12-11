@@ -1,74 +1,89 @@
+# Instagram Reels Downloader Frontend React Vite App - Reeldown.io
 
-Reeldown - Instagram Reels Downloader
-=====================================
+![Insta Reels Downloader](https://github.com/ziauldin123/instagram-reels-downloader-backend-python-django-api/blob/main/reeldown-io-instagram-video-downloading-instagram-reels-download-4k-instagram-reels-download-by-link.png)
 
-Reeldown is a fast and free Instagram Reels video downloader that allows users to download Instagram Reels videos to any device without requiring a login.
+Welcome to the Insta Reels Downloader Frontend React Vite App repository! This project provides a frontend interface for downloading Instagram Reels, built with React and Vite. It integrates seamlessly with the backend Django API.
 
-This project is built using React with Vite for the frontend.
+## Features
 
-Features:
---------
-- Download Instagram Reels videos without needing to log in
-- Fast and secure download process
-- User-friendly and easy to navigate interface
-- Built with modern technologies
+- **Instagram Reels Downloader**: Easily download Instagram Reels by providing the URL.
+- **React Framework**: Built using the powerful React framework for a dynamic user experience.
+- **Vite Build Tool**: Utilizes Vite for fast and optimized builds.
+- **Backend Integration**: Integrates with the Django backend API for efficient reel downloads.
 
-Table of Contents:
--------------------
-1. Installation
-2. Frontend Development
-3. Usage
-4. Contributing
-5. License
+## Live Demo
 
-Installation:
--------------
-1. Clone the repository:
-   Clone the repository to your local machine using Git:
+Check out the live site using this frontend: [reeldown.io](https://reeldown.io)
 
-   git clone https://github.com/your-username/reeldown.git
+## Backend Repository
 
-2. Install dependencies for the frontend (React with Vite):
-   Navigate to the frontend folder:
+This frontend application integrates with the backend Django API. You can find the backend repository here: [instagram-reels-downloader-backend-python-django-api](https://github.com/ziauldin123/instagram-reels-downloader-backend-python-django-api)
 
-   cd frontend
+## Getting Started
 
-   Install the necessary dependencies:
+### Prerequisites
 
+- Node.js 14+
+- npm or yarn
+
+### Installation
+
+1. **Fork the Repository**: Click on the `Fork` button at the top-right corner of this repository to fork it to your own GitHub account.
+
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/insta-reels-downloader-frontend-react.git
+   cd insta-reels-downloader-frontend-react
+   ```
+
+3. **Install Dependencies**:
+   ```bash
    npm install
+   # or
+   yarn install
+   ```
 
-3. Start the frontend development server:
-   Run the React app locally:
-
+4. **Start the Development Server**:
+   ```bash
    npm run dev
+   # or
+   yarn dev
+   ```
 
-   The frontend will be available at http://localhost:3000.
+## Usage
 
-Usage:
-------
-1. Once the frontend server is running, visit http://localhost:3000.
-2. Use the input field to either paste the URL of an Instagram Reels video or search for a video to download.
-3. Follow the prompts to download the video directly to your device.
+After starting the development server, you can access the application at [http://localhost:3000](http://localhost:3000).
 
-Contributing:
--------------
-We welcome contributions to improve this project! If you'd like to contribute, please follow these steps:
+## Environment Variables
 
-1. Fork the repository to your GitHub account.
-2. Create a new branch for your feature or bug fix (e.g., git checkout -b feature-name).
-3. Make the necessary changes and improvements.
-4. Commit your changes (e.g., git commit -am 'Add new feature').
-5. Push your changes to your fork (e.g., git push origin feature-name).
-6. Open a pull request to the main repository.
+To integrate with the backend Django API, ensure you have the appropriate environment variables set up. Create a `.env` file in the root directory and add the following:
 
-License:
---------
-This project is licensed under the MIT License. See the LICENSE file for more details.
+```arduino
+VITE_API_URL=http://127.0.0.1:8000/api
+```
 
-Technologies Used:
-------------------
-- Frontend: React, Vite, Tailwind CSS
-- Deployment Platforms: Aws ec2 instance
+Replace `http://127.0.0.1:8000/api` with the URL of your backend Django API if it's hosted elsewhere.
 
-Thank you for using Reeldown!
+## Built With
 
+- **React** - A JavaScript library for building user interfaces.
+- **Vite** - A build tool that significantly improves the development experience.
+- **Django** - The backend API is built with Django for robust and scalable performance.
+
+## Contributing
+
+We welcome contributions! Follow these steps to contribute:
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For any inquiries, please contact us at contact@reeldown.io.
