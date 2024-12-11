@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60">
+  <!-- White background with rounded corners -->
+  <rect x="0" y="0" width="300" height="60" rx="15" ry="15" fill="white" />
+  
+  <!-- "Reel" in color #4A90E2 -->
+  <text x="10" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#4A90E2">Reel</text>
+  
+  <!-- "down" in color #FF5733 -->
+  <text x="73" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FF5733">down</text>
+</svg>

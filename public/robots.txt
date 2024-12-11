@@ -1,0 +1,6 @@
+# Allow all search engines and SEO tools to scan the site
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://reeldown.io/sitemap.xml
