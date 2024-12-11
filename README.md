@@ -86,4 +86,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any inquiries, please contact us at contact@reeldown.io.
+For any inquiries, please contact us at [contact@reeldown.io](mailto:mziauldin2@gmail.com).
